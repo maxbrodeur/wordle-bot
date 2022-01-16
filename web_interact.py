@@ -28,6 +28,7 @@ def update_keyboard():
 def start():
 	global driver
 	driver = webdriver.Safari()
+	# driver = webdriver.Chrome()
 	driver.get('https://www.powerlanguage.co.uk/wordle/')
 	body = driver.find_element_by_tag_name("body")
 	body.click() #hides instructions
