@@ -12,6 +12,6 @@ pip install -r requirements.txt
 conda create --name "ENTER NAME HERE" --file requirements.txt
 
 ## 2. Run
-###run the following command
+### run the following command
 python main.py
 
