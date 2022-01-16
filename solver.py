@@ -14,7 +14,8 @@ def new_guess(correct, absent, present):
 		lines = f.readlines()
 		lines = [word for word in lines if all([letter not in absent for letter in word])]
 		lines = [word for word in lines if all([word[index]==letter for letter, index in correct])]
-		lines = [word for word in lines if all(letter in word for letter in present)]
+		lines = [word for word in lines if all(letter in word for letter, _ in present)]
+		lines = [word for word in lines if all(word[index]!=letter for letter, index in present)]
 
 		length = len(lines)
 		index =	randint(0,length-1)

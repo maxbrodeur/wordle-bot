@@ -86,7 +86,8 @@ def get_evaluations(row):
 			pair = (letter, i)
 			correct.append(pair)
 		elif evaluation == "present":
-			present.append(letter)
+			pair = (letter, i)
+			present.append(pair)
 		elif evaluation == "absent":	
 			if letter not in [first for first, _ in correct] and letter not in present:
 				absent.append(letter)
