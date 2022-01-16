@@ -50,7 +50,6 @@ def start():
 			attr = btn.get_attribute("data-key")
 			keyb[attr] = btn
 	
-	print(keyb.keys())
 	# MAKE BOARD
 	global board
 	board = host2.find_elements_by_tag_name("game-row")
