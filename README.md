@@ -23,5 +23,5 @@ python main.py
 
 
 ### References
-Got started with the following tutorial: https://www.signifytechnology.com/blog/2019/10/controlling-the-web-with-python-by-william-koehrsen
-Solved shadow root problem using code snippets from: https://cosmocode.io/how-to-interact-with-shadow-dom-in-selenium/
+- Got started with the following tutorial: https://www.signifytechnology.com/blog/2019/10/controlling-the-web-with-python-by-william-koehrsen
+- Solved shadow root problem using code snippets from: https://cosmocode.io/how-to-interact-with-shadow-dom-in-selenium/
