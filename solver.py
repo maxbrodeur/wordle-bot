@@ -18,5 +18,8 @@ def new_guess(correct, absent, present):
 		lines = [word for word in lines if all(word[index]!=letter for letter, index in present)]
 
 		length = len(lines)
-		index =	randint(0,length-1)
+		if length==1:
+			index =	randint(0,length)
+		else:
+			index =	randint(0,length-1)
 		return lines[index]
