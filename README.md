@@ -1,5 +1,5 @@
 # wordle-bot
-Bot for the "Wordle game" from: [Wordle](https://www.powerlanguage.co.uk/wordle/). Opens your browser and solves in front of you.
+Bot for the "Wordle game" from: [Wordle](https://www.nytimes.com/games/wordle/index.html). Opens your browser and solves in front of you.
 
 ### 1. requirements.txt 
 - Can be used to install virtual environment dependencies.
