@@ -1,6 +1,12 @@
 # wordle-bot
 Bot for the "Wordle game" from: [Wordle](https://www.powerlanguage.co.uk/wordle/). Opens your browser and solves in front of you.
 
+<center>
+
+![](./assets/video.gif) 
+
+</center>
+
 ### 1. requirements.txt 
 - Can be used to install virtual environment dependencies.
 - Uses Safari browser (EDIT line 30-31 in main.py for Chrome)
