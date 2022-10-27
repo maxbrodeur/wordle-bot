@@ -1,6 +1,8 @@
 # wordle-bot
 Bot for the "Wordle game" from: [Wordle](https://www.nytimes.com/games/wordle/index.html). Opens your browser and solves in front of you.
 
+Link to [blog post](https://maxbrodeur.github.io/wordlebot/index.html) for project.
+
 <center>
 
 ![](./assets/video.gif) 
